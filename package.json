@@ -1,0 +1,24 @@
+{
+  "name": "posting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "node-dev": "^3.1.1",
+    "node-inspector": "^0.12.8",
+    "nodemon": "^1.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node-inspector & nodemon --debug index.js",
+    "start": "node index.js"
+  },
+  "author": "Don Smith <locksmithdon@gmail.com> (http://locksmithdon.net)",
+  "license": "ISC"
+}
